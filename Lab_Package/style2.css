@@ -1,0 +1,15 @@
+body{
+    background-color: beige;
+    background-image: url("https://image.shutterstock.com/z/stock-photo-old-brick-wall-texture-grunge-background-1722539116.jpg");
+}                      
+.bio{
+    color: midnightblue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+h3{
+    color: cornflowerblue;
+}
+span{
+    font-style: italic;
+}
