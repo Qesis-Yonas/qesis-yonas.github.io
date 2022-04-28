@@ -1,0 +1,62 @@
+body{
+    background-image: url("../images/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0%;
+    color: black;
+}
+
+.banner{
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 50%;
+    height: 50%;
+}
+.bannerbg{
+    background-image: url("../images/bannerbg.png");
+    background-repeat:repeat
+   
+}
+.overview{
+    width: 800px;
+    border: 4px gray solid;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 30%;
+  
+}
+.overview-left-rotten{
+    background-image: url("../images/bannerbg.png");
+    height: 83px;
+}
+.overview-left{
+    
+    width: 550px;
+   
+}
+.overview-right{
+    background-color: rgb(18, 189, 132);
+    float: right
+}
+.overview-right-description{
+    margin: 10pt;
+}
+
+.critic1{
+    width: 200px;
+    border: 4px gray solid;
+    border-radius: 10px;
+}
+.critic1-author-img{
+    float: left;
+}
+.overview-left-left{
+    
+}
+.overview-left-right{
+    margin-bottom: 100%;
+    margin-left: 20%;
+}
