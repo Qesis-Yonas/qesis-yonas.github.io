@@ -28,3 +28,9 @@ p{
     /*background-color: rgb(201, 204, 23);*/
     width: 300px;
 }
+.owner{
+    font: 10pt bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: rgb(9, 9, 9);
+    width: 300px;
+}
