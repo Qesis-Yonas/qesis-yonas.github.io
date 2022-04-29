@@ -24,7 +24,7 @@ p{
     font: 20pt bold;
     font-family: Tahoma, Verdana, sans-serif;
     text-shadow: 2px 4px #999999;
-    color: white;
+    color: rgb(9, 9, 9);
     /*background-color: rgb(201, 204, 23);*/
     width: 300px;
 }
