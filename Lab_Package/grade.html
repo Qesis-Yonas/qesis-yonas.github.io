@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve your grade</title>
+    <link rel="stylesheet" href="grade.css">
+</head>
+
+<body>
+    <div class="yourgrade">
+        <h1><b>Retrieve Your Grade</b></h1>
+        <form action="http://mumstudents.org/params.php">
+            <label for="fullname"> Student Name: </label>
+            <input type="text" id="fullname" name="fullname" value=""> <br> <br>
+
+            <label for="id"> Student Id: </label>
+            <input type="text" id="id" name="id" value="">
+            
+            <div id="entry"><br>
+                <label><input type="radio" value="1" name="entry"> February</label>
+                <label><input type="radio" value="2" name="entry"> June</label>
+                <label><input type="radio" value="3" name="entry"> November</label>
+            </div> 
+            <p><b>Choose Course</b></p>
+            <select>
+                <optgroup label=" Assignments">
+                    <option value=""></option>
+                    <option value="">FPP course Assignments</option>
+                    <option value="">MPP course Assignments</option>
+                    <option value="">DBMS course Assignments</option>
+                    <option value="">WAP course Assignments</option>
+            </select><br>
+            <input type="checkbox" id="consent" name="consent" value="1">
+            <label for="consent">I have double checked my choices</label>
+            <br>
+            <input type="submit" value="Get Grade">
+            <input type="reset" name="reset"><br><br>
+        </form>
+    </div>
+
+</body>
+
+</html>
