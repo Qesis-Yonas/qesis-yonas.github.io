@@ -1,0 +1,154 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 11pt;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h2,
+h1 {
+    color: #4F5472;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li::marker {
+    content: "▸";
+    color: #D2228C;
+}
+
+dt {
+    font-weight: bold;
+}
+
+ol {
+    transform: rotate(180deg);
+}
+
+ol>li {
+    transform: rotate(-180deg);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.detail p::first-letter {
+    float: left;
+    line-height: 0;
+    font-size: 35px;
+    font-family: Montserrat, serif;
+    color: #4F5472;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    margin-bottom: -5px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+}
+
+.social-media img {
+    width: 25px;
+    height: 25px;
+}
+
+.detail {
+    margin: 20px;
+}
+
+.validator {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.mood-details {
+    float: left;
+    text-align: center;
+}
+
+.mk-blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.mk-block {
+    background-color: #E3D89F;
+    margin: 5px;
+    padding: 8px;
+}
+
+.movie-details {
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .personal-info {
+        background-color: rgb(27, 25, 17);
+        width: 100%;
+        min-width: 250px;
+        text-align: center;
+        margin-top: 120px;
+    }
+
+    .about-me {
+        width: 100%;
+        margin-top: 10px;
+        border: 3px rgb(56, 51, 113) solid;
+        border-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .mk-blocks {
+        flex-direction: column;
+    }
+
+    .main-container {
+        width: 100vw;
+        margin: 0 auto;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 800px) {
+    .personal-info {
+        background-color: rgba(27, 192, 148, 0.366);
+        width: 20%;
+        min-width: 250px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .about-me {
+        width: 79%;
+        margin-top: 100px;
+        border: 3px rgb(15, 153, 128) solid;
+        border-left: 0;
+    }
+
+    .main-container {
+        width: 70vw;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: row;
+    }
+}
