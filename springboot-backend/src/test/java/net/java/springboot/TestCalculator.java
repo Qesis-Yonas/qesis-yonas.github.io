@@ -39,6 +39,7 @@ public class TestCalculator {
 
         //then
         assertEquals(expected, result);
+        assertEquals(expected,result);
     }
 
 }
