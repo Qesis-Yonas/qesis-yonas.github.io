@@ -11,7 +11,7 @@ public class CreatArrayListFromCollectionExample {
         firstFivePrimeNumbers.add(5);
         firstFivePrimeNumbers.add(7);
         firstFivePrimeNumbers.add(11);
-        System.out.println(firstFivePrimeNumbers);
+        System.out.println("FirstFivePrimeNumbers: "+firstFivePrimeNumbers);
 
 
 
@@ -21,14 +21,14 @@ public class CreatArrayListFromCollectionExample {
         nextFivePrimeNumbers.add(19);
         nextFivePrimeNumbers.add(23);
         nextFivePrimeNumbers.add(29);
-        System.out.println(nextFivePrimeNumbers);
+        System.out.println("NextFivePrimeNumbers: "+nextFivePrimeNumbers);
 
 
         List<Integer> firstTenPrimeNumbers= new ArrayList<>(firstFivePrimeNumbers);
-        System.out.println(firstTenPrimeNumbers);
+        System.out.println("FirstTenPrimeNumbers: "+firstTenPrimeNumbers);
 
         firstTenPrimeNumbers.addAll(nextFivePrimeNumbers);
-        System.out.println(firstTenPrimeNumbers);
+        System.out.println("FirstTenPrimeNumbers: "+firstTenPrimeNumbers);
 
         System.out.println(firstTenPrimeNumbers.get(2));
 
@@ -39,6 +39,6 @@ public class CreatArrayListFromCollectionExample {
         firstTenPrimeNumbers.removeAll(removed);
 
 
-        System.out.println(firstTenPrimeNumbers);
+        System.out.println("FirstTenPrimeNumbers: "+firstTenPrimeNumbers);
     }
 }

@@ -8,8 +8,8 @@ class Task1 extends Thread{
         System.out.println();
         System.out.println("*******Task1 ended*******");
     }
-
 }
+
 
 class Task2 implements Runnable{
     @Override
