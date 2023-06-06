@@ -19,7 +19,7 @@ public class EmployeeController {
     @Autowired
     EmployeeRepository employeeRepository;
 
-    @GetMapping("/{id}")
+    @GetMapping("id/{id}")
     public ResponseEntity<?> getEmployee(@PathVariable Long id){
         Employee employee=employeeRepository.findById(id)
                 .orElseThrow(()->new ResourseNotFoundException("Employee with the following id does not exist"+ id));

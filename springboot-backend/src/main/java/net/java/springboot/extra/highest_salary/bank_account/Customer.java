@@ -13,4 +13,11 @@ public class Customer {
     private String name;
     private double accountBalance;
 
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "name='" + name + '\'' +
+                ", accountBalance=" + accountBalance +
+                '}';
+    }
 }
