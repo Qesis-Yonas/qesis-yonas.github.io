@@ -13,9 +13,9 @@ public class DifferentwaysToIterateArrayList {
         System.out.println(names.toString());
 
         Iterator iter= names.iterator();
-//        while(iter.hasNext()){
-//            System.out.println(iter);
+        while(iter.hasNext()){
+            System.out.println(iter);
 //            names=iter.next();
-//        }
+        }
     }
 }

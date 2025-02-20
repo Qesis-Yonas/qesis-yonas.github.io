@@ -23,5 +23,9 @@ public class CollectionDemo {
         c.add("mm");
         c.add(122);
 
+        System.out.println();
+        System.out.println(c.size());
+        c.forEach(x->System.out.println(x));
+        c.forEach(System.out::println);
     }
 }
